@@ -1,14 +1,15 @@
 # AjaxSearch
 Servlet+Ajax实现搜索框智能提示
+
 ## 简介
 搜索框相信大家都不陌生，几乎每天都会在各类网站进行着搜索。有没有注意到，很多的搜索功能，当输入内容时，下面会出现提示。这类提示就叫做搜索框的智能提示，本次就为大家介绍如何使用Servlet和Ajax来实现。主要介绍实现原理和代码的前后台实现过程。
 
 ## 项目分析
 
-[scode type="green"]
+
 实现语言：java
 实现方式：Ajax异步传输
-[/scode]
+
 
 案例：比如百度的搜索框智能提示
 
@@ -24,11 +25,11 @@ Servlet+Ajax实现搜索框智能提示
 
 ![过程分析](http://www.geekerstar.com/usr/uploads/2018/04/2533403524.png)
 
-[scode type="yellow"]
+
 重点内容：
 1、数据交互采用ajax方式。
 2、JavaScript解析数据动态展示。
-[/scode]
+
 
 
 ## 页面开发
@@ -296,7 +297,6 @@ public class SearchServlet extends HttpServlet {
 [geekerstar/AjaxSearch](https://github.com/geekerstar/AjaxSearch)
 
 ------------
-[scode type="green"]如果您发现了文章有任何错误欢迎指正，有任何意见或建议，或者有疑问需要我提供帮助，也欢迎在下面留言，只需输入`昵称`+`邮箱`即可，`网站或博客`可选填。对于所有留言内容我会及时回复，非常期待与大家的交流！[/scode]
 
 
 > 版权声明：本文（除特殊标注外）为原创文章，版权归 [Geekerstar](http://www.geekerstar.com) 所有。
